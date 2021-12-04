@@ -44,7 +44,6 @@ oxData = diagData
 co2Data = diagData
 bitNum = 0
 while (((len(oxData) > 1) or (len(oxData) > 1)) and (bitNum < numBits)):
-# for bitNum in range(numBits, -1, -1):
     if (len(oxData) > 1):
         oxCommonBit = getMostCommonBit(oxData, bitNum)
         oxData = extractData(oxData, bitNum, oxCommonBit[0])
